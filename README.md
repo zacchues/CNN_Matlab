@@ -2,14 +2,14 @@ CNN Demo (Matlab version)
 =========================
 
 ## Discribe
-An easy CNN for study.Very toy but usful when you wanna exactly understand what happen when CNN runing by Debug it in your Matlab.
+An handcrafted Convolution Neural Network framwork for DeepLearning study.Very toy but usful when you wanna exactly understand how CNN works and what happen when CNN runing by Debug this program in your Matlab.
 
 * without any dependency
 * using pure pictures as input
 
 
 ## configure
-open "CNN_APP.m" and setup parameters list below ,then press "F5" in MATLAB and enjoy yourself:)
+Open "CNN_APP.m" and setup parameters list below ,then press "F5" in MATLAB and enjoy yourself:)
 
 * mainPath : usually set '.'
 * CNN_Type : lead to training or testing
