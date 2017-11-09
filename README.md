@@ -11,12 +11,12 @@ An easy CNN for study.Very toy but usful when you wanna exactly understand what 
 ## configure
 open "CNN_APP.m" and setup parameters list below ,then press "F5" in MATLAB and enjoy yourself:)
 
-* mainPath
-* CNN_Type
-* netSavePath
-* pre-process parameters
-* training parameters
-* DataPathStr
+* mainPath:usually set '.'
+* CNN_Type:lead to training or testing
+* netSavePath:where trained net can be save or load
+* pre-process parameters: 
+* training parameters: Net structure and training Hyper parameters define
+* DataPathStr: Path to your data dir
 
 Keep your data in the following format:
 
