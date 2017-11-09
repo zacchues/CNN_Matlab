@@ -41,5 +41,4 @@ test:
 Mnist(pic version) and its minimun version(just 70 pictures included,60 for train and 10 for test) can be download here:[BaiduYun](http://pan.baidu.com/s/1i4QFyoX). For fast test, I suggest you download Mnist_70(min version), extract it into 'mainPath\Data' and set 'DataPathStr' as '\Data\70\'.
 
 ## demo
-![](https://github.com/zacchues/CNN_Matlab/raw/master/pic/demo.png) 
 ![](https://github.com/zacchues/CNN_Matlab/blob/master/pic/demo.png)  
