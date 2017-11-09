@@ -15,7 +15,7 @@ Open "CNN_APP.m" and setup parameters list below ,then press "F5" in MATLAB and 
 * CNN_Type : lead to training or testing
 * netSavePath : where trained Net can be saved or loaded
 * pre-process parameters : pre-process your data pictures that use for net input
-* training parameters : define Net structure and training Hyper parameters 
+* training parameters : define Net structure and Hyper parameters for train
 * DataPathStr : Path to your data dir
 
 put your data as below:
