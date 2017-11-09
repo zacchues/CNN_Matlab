@@ -5,7 +5,7 @@ picstr=dir(imgDir);
 picgather=cell(row-2,1);
 if(row>=3)
     for i=3:row
-        picgather{i-2}=imread([imgDir,'\',picstr(i).name]);
+        picgather{i-2}=imread([imgDir,'/',picstr(i).name]);
     end
 end
 end

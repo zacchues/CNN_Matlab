@@ -1,7 +1,7 @@
 function cnn=CNN_Train(CNN_StructPara,maxIterNum,costFunction,batchSize,isShowProgress,accuracy,netSavePath,pathStr,outputSize,imgSize,isDoGray,isDoBW,isDoColorReversal,isLoadExistCNN,regularizationLamda,regularizationType)
 
-[trainInput,trainOutput]=loadImgDataSet([pathStr,'train\'],'训练集',outputSize,imgSize,isDoGray,isDoBW,isDoColorReversal);% 载入训练集
-[testInput,testOutput]=loadImgDataSet([pathStr,'test\'],'测试集',outputSize,imgSize,isDoGray,isDoBW,isDoColorReversal);% 载入测试集
+[trainInput,trainOutput]=loadImgDataSet([pathStr,'train/'],'训练集',outputSize,imgSize,isDoGray,isDoBW,isDoColorReversal);% 载入训练集
+[testInput,testOutput]=loadImgDataSet([pathStr,'test/'],'测试集',outputSize,imgSize,isDoGray,isDoBW,isDoColorReversal);% 载入测试集
 
 
 trainSetNum=size(trainOutput,1);% 计算测试集数量

@@ -9,7 +9,7 @@ addpath(genpath(mainPath));
 CNN_Type = 'train';% 训练
 
 % 设定网络存储位置
-netSavePath = [mainPath , '\cnn_Save\Mnist_cnn.mat'];% 网络存储位置
+netSavePath = [mainPath , '/cnn_Save/Mnist_cnn.mat'];% 网络存储位置
 
 % 预处理参数pre-process
 imgSize = 32;% 图像归一化尺寸
@@ -46,8 +46,8 @@ elseif strcmp(CNN_Type , 'train') % 训练
     % ------载入图像数据库------
     
     % 图像数据路径
-    % DataPathStr = '\Data\Mnist\';
-    DataPathStr = '\Data\70\';
+    % DataPathStr = '/Data/Mnist/';
+    DataPathStr = '/Data/70/';
     
     pathStr = [mainPath , DataPathStr];% 数据库存储路径
     
