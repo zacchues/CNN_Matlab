@@ -38,7 +38,7 @@ test:
 >Path/to/your/data/dir/test/10/0_1.png\
 >......
 
-Mnist(pic version) and its minimun version(just 70 pictures included,60 for train and 10 for test) can be download here:[BaiduYun](http://pan.baidu.com/s/1i4QFyoX)./
+Mnist(pic version) and its minimun version(just 70 pictures included,60 for train and 10 for test) can be download here:[BaiduYun](http://pan.baidu.com/s/1i4QFyoX).\
 For fast test, I suggest you download Mnist_70.rar(min version), extract it into 'mainPath\Data' and set 'DataPathStr' as '\Data\70\'.
 
 ## demo
