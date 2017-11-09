@@ -23,16 +23,17 @@ put your data as below:
 	train:Path/to/your/data_dir/train/[ClassIndex]/[pic_name].[format]
 	test:Path/to/your/data_dir/test/[ClassIndex]/[pic_name].[format]
 
-[ClassIndex] begins with 1 and [format] can be 'jpg'/'png'/'bmp' and so on.For example, mnist picture should be set as follow:
+[ClassIndex] begins with 1 and [format] can be 'jpg'/'png'/'bmp' and so on.\
+For example, mnist picture should be set as follow:
 
 train:
->Path/to/your/data/dir/train/1/1_1.png\
->Path/to/your/data/dir/train/2/2_10.png\
+>Path/to/your/data/dir/train/1/1_1.png
+>Path/to/your/data/dir/train/2/2_10.png
 >......
 
 test:
->Path/to/your/data/dir/test/1/1_1.png\
->Path/to/your/data/dir/test/2/2_3.png\
->......\
->Path/to/your/data/dir/test/10/0_1.png\
+>Path/to/your/data/dir/test/1/1_1.png
+>Path/to/your/data/dir/test/2/2_3.png
+>......
+>Path/to/your/data/dir/test/10/0_1.png
 >......
