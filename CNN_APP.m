@@ -15,7 +15,7 @@ netSavePath=[mainPath,'\cnn_Save\Mnist_cnn.mat'];% 网络存储位置
 % netSavePath=[mainPath,'\cnn_Save\20161124_Mushrooms_All_cnn.mat'];% 网络存储位置
 % netSavePath=[mainPath,'\cnn_Save\20170421_Mushrooms_All_4class.mat'];% 网络存储位置
 
-% 预处理参数
+% 预处理参数pre-process
 imgSize=32;% 图像归一化尺寸
 isDoGray=0;% 是否做灰度化
 isDoBW=0;% 是否做二值化
@@ -26,7 +26,7 @@ if strcmp(CNN_Type,'test')% 预测
     CNN_Test(netSavePath,imgSize,isDoGray,isDoBW,isDoColorReversal);
     
 elseif strcmp(CNN_Type,'train')% 训练
-    %% 设置基本参数
+    %% 设置基本训练参数training parameters
     
     % inputSize=size(input,2);% 输入一维向量维度
     
