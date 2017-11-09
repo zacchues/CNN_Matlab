@@ -17,3 +17,13 @@ open "CNN_APP.m" and setup parameters list below ,then press "F5" in MATLAB and 
 * pre-process parameters
 * training parameters
 * DataPathStr
+
+Keep your data in the following format:
+
+	train:Path/to/your/data/dir/train/[ClassIndex]/[pic_name].[format]
+	test:Path/to/your/data/dir/test/[ClassIndex]/[pic_name].[format]
+
+[ClassIndex] begins with 1 and [format] can be 'jpg'/'png'/'bmp' and so on.For example, mnist picture should be set as follow:
+
+train:Path/to/your/data/dir/train/1/1_1.png
+test:Path/to/your/data/dir/test/10/0_1.png
