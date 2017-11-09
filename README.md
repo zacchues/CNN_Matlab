@@ -2,14 +2,14 @@ CNN Demo (Matlab version)
 =========================
 
 ## Discribe
-A handcrafted Convolution Neural Network framwork for DeepLearning study.Very toy but usful when you wanna exactly understand how CNN works and what happen when CNN runing by Debug this program in your Matlab.
+A handcrafted Convolution Neural Network framwork for DeepLearning study.Very toy but usful when you wanna exactly understand how CNN works and what happen when CNN runs by Debug this program in your Matlab.
 
 * without any dependency
 * using pure pictures as input
 
 
-## configure
-Open "CNN_APP.m" and setup parameters list below ,then press "F5" in MATLAB and enjoy yourself:)
+## how to use
+Open "CNN_APP.m" and setup parameters listed below ,then press "F5" in MATLAB and enjoy yourself:)
 
 * mainPath : usually use '.'
 * CNN_Type : lead to training or testing
@@ -38,7 +38,8 @@ test:
 >Path/to/your/data/dir/test/10/0_1.png\
 >......
 
-Mnist(pic version) and its minimun version(just 70 pictures included,60 for train and 10 for test) can be download here:[BaiduYun](http://pan.baidu.com/s/1i4QFyoX). For fast test, I suggest you download Mnist_70(min version), extract it into 'mainPath\Data' and set 'DataPathStr' as '\Data\70\'.
+Mnist(pic version) and its minimun version(just 70 pictures included,60 for train and 10 for test) can be download here:[BaiduYun](http://pan.baidu.com/s/1i4QFyoX)./
+For fast test, I suggest you download Mnist_70.rar(min version), extract it into 'mainPath\Data' and set 'DataPathStr' as '\Data\70\'.
 
 ## demo
 ![](https://github.com/zacchues/CNN_Matlab/blob/master/pic/demo.png)  
