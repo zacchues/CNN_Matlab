@@ -2,7 +2,7 @@ CNN Demo (Matlab version)
 =========================
 
 ## Discribe
-An handcrafted Convolution Neural Network framwork for DeepLearning study.Very toy but usful when you wanna exactly understand how CNN works and what happen when CNN runing by Debug this program in your Matlab.
+A handcrafted Convolution Neural Network framwork for DeepLearning study.Very toy but usful when you wanna exactly understand how CNN works and what happen when CNN runing by Debug this program in your Matlab.
 
 * without any dependency
 * using pure pictures as input
